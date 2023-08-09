@@ -1,7 +1,5 @@
 /* CSS stillerinizi buraya girin */
-
 @import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500;600;700;800&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -133,4 +131,73 @@ footer a:hover {
   background-color: #026ca6;
   color: white;
   transition: all 0.3s ease-in-out;
+}
+
+/******* responsive */
+@media (max-width: 767px) {
+  header a i {
+    font-size: 14px;
+  }
+  header h2 {
+    font-size: 18px;
+  }
+  nav h2 {
+    font-size: 18px;
+  }
+  nav a {
+    padding: 10px 5px;
+    margin: 1px;
+    font-size: 12px;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .banner h2 {
+    font-size: 20px;
+  }
+  .centered2 a {
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+  .centered2 {
+    position: absolute;
+    top: 64%;
+  }
+  .projects h3 {
+    font-size: 15px;
+  }
+  footer {
+    margin-top: 30px;
+    background-color: #2ca6a4;
+    padding: 20px;
+  }
+  footer a {
+    padding: 10px 10px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  nav a {
+    padding: 12px 25px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .banner h2 {
+    font-size: 40px;
+  }
+  .centered2 a {
+    padding: 12px 20px;
+    font-size: 17px;
+  }
+  footer {
+    margin-top: 20px;
+    padding: 35px;
+  }
+  footer a {
+    padding: 12px 25px;
+    font-size: 20px;
+  }
 }
