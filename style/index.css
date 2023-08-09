@@ -1,1 +1,136 @@
 /* CSS stillerinizi buraya girin */
+
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gemunu Libre", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid;
+  background-color: #79bcb8;
+}
+header a {
+  margin: 5px;
+}
+header a i {
+  font-size: 30px;
+}
+header a:first-child {
+  color: #0077b5;
+}
+header a:nth-child(2) {
+  color: black;
+}
+header a:nth-child(3) {
+  color: brown;
+}
+
+header h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+nav a {
+  padding: 12px 35px;
+  cursor: pointer;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+  margin: 5px;
+  font-size: 15px;
+  color: black;
+  background-color: whitesmoke;
+}
+nav a:hover {
+  background-color: #0077b5;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+nav h2 {
+  font-size: 40px;
+}
+.banner {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+}
+.banner img {
+  -webkit-filter: blur(4px);
+}
+.banner h2 {
+  font-size: 80px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2 a {
+  padding: 12px 35px;
+  cursor: pointer;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+  margin: 5px;
+  font-size: 25px;
+  color: black;
+  background-color: whitesmoke;
+}
+.centered2 a:hover {
+  background-color: #0077b5;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  gap: 20px;
+  text-align: center;
+}
+.projects div {
+  width: 460px;
+  text-align: center;
+}
+.projects div img {
+  width: 100%;
+}
+footer {
+  margin-top: 30px;
+  background-color: #2ca6a4;
+  padding: 50px;
+  text-align: center;
+}
+footer a {
+  padding: 12px 35px;
+  cursor: pointer;
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+  margin: 5px;
+  font-size: 25px;
+  color: black;
+  background-color: whitesmoke;
+}
+footer a:hover {
+  background-color: #026ca6;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
