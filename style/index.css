@@ -146,6 +146,14 @@ footer a:hover {
     padding: 10px 5px;
     margin: 1px;
   }
+  nav {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+  }
   .banner {
     margin: 5px;
   }
